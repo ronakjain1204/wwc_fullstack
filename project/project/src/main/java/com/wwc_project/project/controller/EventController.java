@@ -25,5 +25,5 @@ public class EventController {
     }
 
     // to make endpoint for getting event by id if not show 404 error
-
+    @GetMapping("/{id}")
 }
